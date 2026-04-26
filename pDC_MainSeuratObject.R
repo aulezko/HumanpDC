@@ -154,7 +154,7 @@ tonsil3 <- process_standard_sample(
 
 # Hashtagged samples -------------------------------------------------------
 
-# sample 1910_11_M7WO (MGI4595) - works, but kfunc in HTODemux() has to be kmeans
+# sample 1910_11_M7WO (MGI4595) 
 sample191011.singlet <- process_hto_sample(
   path = "/storage1/fs1/mcolonna/Active/Alina/Own_Analysis/pDC_Project/samples/Colonna_fbc_MGI4595_10X/MGI4595_MCAM-AA-1910_11_M7WO_pDC/outs/filtered_feature_bc_matrix/",
   use_kmeans = TRUE
