@@ -28,7 +28,7 @@ genes_pDC_coarse <- c("AXL", "SIGLEC6",
                       "GZMB", "NPC2", "PTCRA", "IRF7", "IGKC", "PPP1R14B",
                       "IL3RA", "JCHAIN", "CLEC4C", "TCF4", "IGLC2", "MX1", "IFI16", "TRDC",
                       "IGLL1", "MKI67", "TOP2A", "TUBA1B", "HMGB1", "COTL1A", "SEMA4A")
-barycoords_pdc_avg_coarse = transformBarycentric(as.matrix(pdc_avg_coarse_counts_df))
+barycoords_pdc_avg_coarse <- transformBarycentric(as.matrix(pdc_avg_coarse_counts_df))
 k <- plotDotplot(barycoords_pdc_avg_coarse, Goi=genes_pDC_coarse)
 #Save as you prefer (png/svg/pdf)
 ggsave("/storage1/fs1/mcolonna/Active/Alina/Own_Analysis/pDC_Project/plots/dotplot_highlighted.png",k, dpi=700, width=6, height=6)
@@ -40,5 +40,5 @@ dotplot = interactiveDotplot(as.matrix(pdc_avg_coarse_counts_df))
 dotplot
 
 
-dotplot = interactiveDotplot(as.matrix(pdc_avg_coarse_counts_df))
+dotplot <- interactiveDotplot(as.matrix(pdc_avg_coarse_counts_df))
 dotplot
