@@ -36,7 +36,7 @@ ggsave("/storage1/fs1/mcolonna/Active/Alina/Own_Analysis/pDC_Project/plots/dotpl
 ggsave("/storage1/fs1/mcolonna/Active/Alina/Own_Analysis/pDC_Project/plots/dotplot_highlighted.pdf",k, dpi=700, width=8, height=8)
 #Something useful you can do is have an interactive dotplot pulled in the viewer and you can search your gene of interest to see where it is located at. 
 #This is useful to manually annotate the genes, makes a cleaner plot.
-dotplot = interactiveDotplot(as.matrix(pdc_avg_coarse_counts_df))
+dotplot <- interactiveDotplot(as.matrix(pdc_avg_coarse_counts_df))
 dotplot
 
 
