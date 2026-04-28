@@ -1,6 +1,7 @@
 # HumanpDC
 
-This is the code repository related to the following publication: "*****", by Alina Ulezko Antonova and colleagues.
+This is the code repository related to the following publication **Age- and tissue-dependent diversity of human
+plasmacytoid dendritic cells uncovers a cycling subset dominant in early life and cancer**, by *Alina Ulezko Antonova et al.* (Immunity, 2026).
 
 This repository contains the following files:
 
