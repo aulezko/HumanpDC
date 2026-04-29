@@ -24,3 +24,5 @@ To ensure results are consistent, the mapping of mouse-to-human orthologues uses
 ## Main Seurat Object
 For ease of analysis for users, I have uploaded the main seurat object (from Figure 1B) to Zenodo. 
 This can be accessed in this link: https://zenodo.org/records/19871328 
+
+📫 How to reach me: aulezkoantonova@wustl.edu
