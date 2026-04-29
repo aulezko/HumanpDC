@@ -11,7 +11,7 @@ This codebase provides the analytical pipeline used to process, integrate, and v
 * `pDC_Fig1B_HumanSeurat.R`: Script to reproduce the main Seurat object, as presented in Figure 1B.
 * `pDC_Fig1D_RadarPlot.R`: Script used to generate the radar plot shown in Figure 1D.
 * `pDC_Fig3_HumanMouseCCA.R`: Script for cross-species integration. This workflow converts mouse pDC gene symbols to human orthologues, rebuilds the mouse object in the human gene space, and performs Canonical Correlation Analysis (CCA) to integrate mouse and human datasets.
-*  `pDC_Fig7_BPDCN.R`: Script ro reproduce the main plots in the BPDCN analysis from Griffin et al as shown in Figure 7.
+*  `pDC_Fig7_BPDCN.R`: Script to reproduce the main plots in the BPDCN analysis from *Griffin et al.*, as shown in Figure 7.
 
 ## Requirements
 * `R` (version 4.0 or higher)
