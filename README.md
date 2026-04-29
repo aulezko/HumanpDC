@@ -4,7 +4,7 @@ This repository contains the code associated with the publication:
 **<u>Age- and tissue-dependent diversity of human plasmacytoid dendritic cells uncovers a cycling subset dominant in early life and cancer<u>**, by *Alina Ulezko Antonova et al.* (Immunity, 2026).
 
 ## Overview
-This codebase provides the analytical pipeline used to process, integrate, and visualize single-cell transcriptomic data for human and mouse plasmacytoid dendritic cells (pDCs). 
+This codebase provides the analytical pipeline used to process, integrate, and visualize some of the single-cell transcriptomic data for our human and mouse plasmacytoid dendritic cell (pDC) study. 
 
 I have uploaded these codes hoping they will be helpful for users to reproduce the data presented here and use them for their own research and learning. I personally benefited significantly from public code when learning to analyze single-cell data, and I hope this repository proves useful to you. 
 
