@@ -1,7 +1,7 @@
 # HumanpDC
 
 This repository contains the code associated with the publication:
-<u>**Age- and tissue-dependent diversity of human plasmacytoid dendritic cells uncovers a cycling subset dominant in early life and cancer**<u>, by *Alina Ulezko Antonova et al.* (Immunity, 2026).
+**<u>Age- and tissue-dependent diversity of human plasmacytoid dendritic cells uncovers a cycling subset dominant in early life and cancer<u>**, by *Alina Ulezko Antonova et al.* (Immunity, 2026).
 
 ## Overview
 This codebase provides the analytical pipeline used to process, integrate, and visualize single-cell transcriptomic data for human and mouse plasmacytoid dendritic cells (pDCs).
