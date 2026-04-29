@@ -1,9 +1,22 @@
 # HumanpDC
 
-This is the code repository related to the following publication **Age- and tissue-dependent diversity of human
-plasmacytoid dendritic cells uncovers a cycling subset dominant in early life and cancer**, by *Alina Ulezko Antonova et al.* (Immunity, 2026).
+This repository contains the code associated with the publication:
+**Age- and tissue-dependent diversity of human plasmacytoid dendritic cells uncovers a cycling subset dominant in early life and cancer**, by *Alina Ulezko Antonova et al.* (Immunity, 2026).
 
-This repository contains the following files:
+## Overview
+This codebase provides the analytical pipeline used to process, integrate, and visualize single-cell transcriptomic data for human and mouse plasmacytoid dendritic cells (pDCs).
 
-* RadarPlotCode.R: RScript file used to generate the radar plot in Figure 1D.
-* pDC_MainSeuratObject.R: RScript file that can be used to reproduce the main Seurat object, shown in Figure 1B.
+## Repository Contents
+
+* `pDC_MainSeuratObject.R`: Script to reproduce the main Seurat object, as presented in Figure 1B.
+* `RadarPlotCode.R`: Script used to generate the radar plot shown in Figure 1D.
+* `pDC_MousetoHumanCCA.R`: Script for cross-species integration. This workflow converts mouse pDC gene symbols to human orthologues, rebuilds the mouse object in human gene space, and performs Canonical Correlation Analysis (CCA) to integrate mouse and human datasets.
+
+## Requirements
+* `R` (version 4.0 or higher)
+* `Seurat`
+* `ggplot2`
+* `biomaRt`
+
+## Reproducibility
+To ensure results are consistent, the mapping of mouse-to-human orthologues uses the Ensembl archive (December 2021). 
