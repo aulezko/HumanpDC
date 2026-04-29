@@ -15,3 +15,7 @@ This codebase provides the analytical pipeline used to process, integrate, and v
 
 ## Reproducibility
 To ensure results are consistent, the mapping of mouse-to-human orthologues uses the Ensembl archive (December 2021). 
+
+## Main Seurat Object
+For ease of analysis for users, I have uploaded the main seurat object (from Figure 1B) to Zenodo. 
+This can be accessed in this link:
