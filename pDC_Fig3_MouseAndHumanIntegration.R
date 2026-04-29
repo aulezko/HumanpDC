@@ -27,10 +27,10 @@ suppressPackageStartupMessages({
 # Define input and output paths
 # ----------------------------
 mouse_dcs_rds <- "..."   # Processed object from GSE314567 (mouse tissue DC data)
-human_pdc_rds <- "..."   # Processed object from Figure 1D (see code in pDC_Figure1D)
+human_pdc_rds <- "..."   # Processed object from Figure 1D (see code in pDC_Fig1B_HumanSeurat.R)
 
-out_mouse_pdc_hGenes_rds <- "...rds" #name for your rds of mouse DCs using human genes
-out_pdc_cca_rds <- "..." #name for your rds of CCA-integrated mouse and human pDC data
+out_mouse_pdc_hGenes_rds <- "...rds" #path for your rds of mouse DCs using human genes
+out_pdc_cca_rds <- "..." #path for your rds of CCA-integrated mouse and human pDC data
 plot_dir <- "plots"
 
 if (!dir.exists(plot_dir)) {
