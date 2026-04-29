@@ -13,11 +13,5 @@ This codebase provides the analytical pipeline used to process, integrate, and v
 * `pDC_Fig3_HumanMouseCCA.R`: Script for cross-species integration. This workflow converts mouse pDC gene symbols to human orthologues, rebuilds the mouse object in the human gene space, and performs Canonical Correlation Analysis (CCA) to integrate mouse and human datasets.
 *  `pDC_Fig7_BPDCN.R`: Script to reproduce the main plots in the BPDCN analysis from *Griffin et al.*, as shown in Figure 7.
 
-## Requirements
-* `R` (version 4.0 or higher)
-* `Seurat`
-* `ggplot2`
-* `biomaRt`
-
 ## Reproducibility
 To ensure results are consistent, the mapping of mouse-to-human orthologues uses the Ensembl archive (December 2021). 
