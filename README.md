@@ -16,6 +16,7 @@ I have uploaded these codes hoping they will be helpful for users to reproduce t
 * `pDC_Fig1D_RadarPlot.R`: Script used to generate the radar plot shown in Figure 1D.
 * `pDC_Fig3_HumanMouseCCA.R`: Script for cross-species integration. This workflow converts mouse pDC gene symbols to human orthologues, rebuilds the mouse object in the human gene space, and performs Canonical Correlation Analysis (CCA) to integrate mouse and human datasets.
 *  `pDC_Fig7_BPDCN.R`: Script to reproduce the main plots in the BPDCN analysis from *Griffin et al.*, as shown in Figure 7.
+*  `Link to Zenodo for Seurat object`: See bottom of this page.
 
 ## Reproducibility
 To ensure results are consistent, the mapping of mouse-to-human orthologues uses the Ensembl archive (December 2021). 
