@@ -8,7 +8,7 @@ This codebase provides the analytical pipeline used to process, integrate, and v
 
 I have uploaded these codes hoping they will be helpful for users to reproduce the data presented here and use them for their own research and learning. I personally benefited significantly from public code when learning to analyze single-cell data, and I hope this repository proves useful to you. 
 
-*Note: Code not available in this repository follows standard pipelines as outlined in the methods section of the publication. For questions regarding this repository, please e-email me at aulezkoantonova[at]wustl.edu*
+*Note: Code not available in this repository follows standard pipelines as outlined in the methods section of the publication. For questions regarding this repository, please e-email me at aulezkoantonova@wustl.edu*
 
 ## Repository Contents
 
